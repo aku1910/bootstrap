@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.clarance{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    position: sticky;
+
+}
+
+.col-5 {
+    background-color: rgb(189, 93, 56);
+}
+
+.rounded-circle {
+    width: 55%;     
+    border: 11px solid rgb(225, 182, 165);
+
+}
+
+ul li a {
+    color: rgb(225, 182, 165);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title h1 {
+    color: white;
+}
+
+.title button {
+    background-color: rgb(189, 93, 56);
+}
+
+.title {
+
+    background-color: rgb(189, 93, 56);
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    display: flex;
+}
+
+
+
+
+.clarance h1 {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.clarance p a {
+    color: rgb(189, 93, 56);
+}
+
+span {
+    font-size: 20px;
+    color: gray;
+    padding-bottom: 10px;
+}
+
+.clarance h1 span {
+    color: rgb(189, 93, 56);
+    font-size: 100%;
+}
+
+.linkedn {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    background-color: rgb(52, 58, 64);
+    color: white;
+    border-radius: 50%;
+}
+
+.facebook {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    background-color: rgb(52, 58, 64);
+    color: white;
+    border-radius: 50%;
+
+}
+
+.twitter {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    background-color: rgb(52, 58, 64);
+    color: white;
+    border-radius: 50%;
+
+}
+
+.github {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    background-color: rgb(52, 58, 64);
+    color: white;
+    border-radius: 50%;
+}
+
+.linkedn:hover {
+    background-color: rgb(189, 93, 56);
+}
+
+.twitter:hover {
+    background-color: rgb(189, 93, 56);
+}
+
+.facebook:hover {
+    background-color: rgb(189, 93, 56);
+}
+
+.github:hover {
+    background-color: rgb(189, 93, 56);
+}
+
+
+@media screen and (max-width:992px) {
+    .col-5 {
+        visibility: hidden;
+    }
+
+}
+
+
+@media screen and (min-width:992px) {
+    .title{
+        visibility: hidden;
+    }
+    .col-5{
+     height: 100vh;
+    }
+    
+}
